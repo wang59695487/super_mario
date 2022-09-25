@@ -1,0 +1,5 @@
+/top.ncd filter=lfs diff=lfs merge=lfs -text
+/top.ngd filter=lfs diff=lfs merge=lfs -text
+/top_guide.ncd filter=lfs diff=lfs merge=lfs -text
+/top_map.ngm filter=lfs diff=lfs merge=lfs -text
+{ filter=lfs diff=lfs merge=lfs -text
