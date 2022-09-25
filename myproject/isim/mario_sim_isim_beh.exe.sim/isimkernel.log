@@ -1,0 +1,28 @@
+Command line:
+   mario_sim_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49177
+
+Mon Dec 31 13:46:13 2018
+
+
+ Elaboration Time: 0.0468 sec
+
+ Current Memory Usage: 667.853 Meg
+
+ Total Signals          : 40
+ Total Nets             : 109
+ Total Signal Drivers   : 29
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 36
+ Total Traceable Variables  : 110
+ Total Scalar Nets and Variables : 846
+
+ Total Simulation Time: 0.0936 sec
+
+ Current Memory Usage: 982.426 Meg
+
+Mon Dec 31 13:47:00 2018
+

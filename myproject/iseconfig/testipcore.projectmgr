@@ -1,0 +1,248 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="testipcore" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Seg7_driver C:|Users|dydxh|Project|testipcore|Seg7_driver.v</ClosedNode>
+         <ClosedNode>/VGA_driver C:|Users|dydxh|Project|testipcore|VGA_driver.v</ClosedNode>
+         <ClosedNode>/barrelColor C:|Users|dydxh|Project|testipcore|barrelColor.v</ClosedNode>
+         <ClosedNode>/color C:|Users|dydxh|Project|testipcore|color.v</ClosedNode>
+         <ClosedNode>/key2state C:|Users|dydxh|Project|testipcore|key2state.v</ClosedNode>
+         <ClosedNode>/kongColor C:|Users|dydxh|Project|testipcore|KongColor.v</ClosedNode>
+         <ClosedNode>/kong_sim C:|Users|dydxh|Project|testipcore|kong_sim.v</ClosedNode>
+         <ClosedNode>/marioColor C:|Users|dydxh|Project|testipcore|MarioColor.v</ClosedNode>
+         <ClosedNode>/mario_sim C:|Users|dydxh|Project|testipcore|mario_sim.v</ClosedNode>
+         <ClosedNode>/mario_sim C:|Users|songc|Desktop|myproject|mario_sim.v</ClosedNode>
+         <ClosedNode>/mario_sim C:|ip_core5|myproject|mario_sim.v</ClosedNode>
+         <ClosedNode>/mario_sim C:|ip_core|myproject|mario_sim.v</ClosedNode>
+         <ClosedNode>/queueColor C:|Users|dydxh|Project|testipcore|QueueColor.v</ClosedNode>
+         <ClosedNode>/state_fsm_sim C:|Users|dydxh|Project|testipcore|state_fsm_sim.v</ClosedNode>
+         <ClosedNode>/top C:|Users|dydxh|Project|testipcore|top.v/Charactercolor - characterColor/barrel - barrelColor</ClosedNode>
+         <ClosedNode>/top C:|Users|dydxh|Project|testipcore|top.v/Charactercolor - characterColor/kong - kongColor</ClosedNode>
+         <ClosedNode>/top C:|Users|dydxh|Project|testipcore|top.v/Charactercolor - characterColor/queue - queueColor</ClosedNode>
+         <ClosedNode>/top C:|Users|dydxh|Project|testipcore|top.v/GetBackground - color</ClosedNode>
+         <ClosedNode>/top C:|Users|dydxh|Project|testipcore|top.v/NumberDisplay - Seg7_driver</ClosedNode>
+         <ClosedNode>/top C:|Users|dydxh|Project|testipcore|top.v/get_movement - key2state</ClosedNode>
+         <ClosedNode>/top C:|Users|dydxh|Project|testipcore|top.v/myBarrel - barrel</ClosedNode>
+         <ClosedNode>/top C:|Users|dydxh|Project|testipcore|top.v/myBarrelColor - barrelColor</ClosedNode>
+         <ClosedNode>/top C:|Users|dydxh|Project|testipcore|top_test_for_ps2.v</ClosedNode>
+         <ClosedNode>/top C:|Users|songc|Desktop|myproject|top.v/Charactercolor - characterColor</ClosedNode>
+         <ClosedNode>/top C:|Users|songc|Desktop|myproject|top.v/GetBackground - color</ClosedNode>
+         <ClosedNode>/top C:|Users|songc|Desktop|myproject|top.v/NumberDisplay - Seg7_driver</ClosedNode>
+         <ClosedNode>/top C:|Users|songc|Desktop|myproject|top.v/VGADisplay - VGA_driver</ClosedNode>
+         <ClosedNode>/top C:|Users|songc|Desktop|myproject|top.v/Wel01 - WelcomeBG/W_background1 - W_background1</ClosedNode>
+         <ClosedNode>/top C:|Users|songc|Desktop|myproject|top.v/Wel01 - WelcomeBG/W_background2 - W_background2/m1 - W_Hint2</ClosedNode>
+         <ClosedNode>/top C:|Users|songc|Desktop|myproject|top.v/get_movement - key2state</ClosedNode>
+         <ClosedNode>/top C:|Users|songc|Desktop|myproject|top.v/myBarrel - barrel</ClosedNode>
+         <ClosedNode>/top C:|Users|songc|Desktop|myproject|top.v/myBarrelColor - barrelColor</ClosedNode>
+         <ClosedNode>/top C:|ip_core5|myproject|top.v/Charactercolor - characterColor</ClosedNode>
+         <ClosedNode>/top C:|ip_core5|myproject|top.v/GetBackground - color</ClosedNode>
+         <ClosedNode>/top C:|ip_core5|myproject|top.v/NumberDisplay - Seg7_driver</ClosedNode>
+         <ClosedNode>/top C:|ip_core5|myproject|top.v/VGADisplay - VGA_driver</ClosedNode>
+         <ClosedNode>/top C:|ip_core5|myproject|top.v/Wel01 - WelcomeBG</ClosedNode>
+         <ClosedNode>/top C:|ip_core5|myproject|top.v/endcontrol - Endcontrol</ClosedNode>
+         <ClosedNode>/top C:|ip_core5|myproject|top.v/get_movement - key2state</ClosedNode>
+         <ClosedNode>/top C:|ip_core5|myproject|top.v/myBarrel - barrel</ClosedNode>
+         <ClosedNode>/top C:|ip_core5|myproject|top.v/myBarrelColor - barrelColor</ClosedNode>
+         <ClosedNode>/top C:|ip_core5|myproject|top.v/wincontrol - sucessBg</ClosedNode>
+         <ClosedNode>/top C:|ip_core|myproject|top.v/Charactercolor - characterColor</ClosedNode>
+         <ClosedNode>/top C:|ip_core|myproject|top.v/Charactercolor - characterColor/kong - kongColor</ClosedNode>
+         <ClosedNode>/top C:|ip_core|myproject|top.v/Charactercolor - characterColor/queue - queueColor</ClosedNode>
+         <ClosedNode>/top C:|ip_core|myproject|top.v/GetBackground - color</ClosedNode>
+         <ClosedNode>/top C:|ip_core|myproject|top.v/NumberDisplay - Seg7_driver</ClosedNode>
+         <ClosedNode>/top C:|ip_core|myproject|top.v/VGADisplay - VGA_driver</ClosedNode>
+         <ClosedNode>/top C:|ip_core|myproject|top.v/Wel01 - WelcomeBG/W_background1 - W_background1</ClosedNode>
+         <ClosedNode>/top C:|ip_core|myproject|top.v/Wel01 - WelcomeBG/W_background1 - W_background1/m1 - W_playcolor</ClosedNode>
+         <ClosedNode>/top C:|ip_core|myproject|top.v/Wel01 - WelcomeBG/W_background1 - W_background1/m4 - W_Hint1</ClosedNode>
+         <ClosedNode>/top C:|ip_core|myproject|top.v/Wel01 - WelcomeBG/W_background2 - W_background2</ClosedNode>
+         <ClosedNode>/top C:|ip_core|myproject|top.v/get_movement - key2state</ClosedNode>
+         <ClosedNode>/top C:|ip_core|myproject|top.v/myBarrel - barrel</ClosedNode>
+         <ClosedNode>/top C:|ip_core|myproject|top.v/myBarrelColor - barrelColor</ClosedNode>
+         <ClosedNode>/top C:|myfinal2|myfinal1|ip_core5|myproject|top.v/GetBackground - color</ClosedNode>
+         <ClosedNode>/top C:|myfinal2|myfinal1|ip_core5|myproject|top.v/Wel01 - WelcomeBG</ClosedNode>
+         <ClosedNode>/top C:|myfinal2|myfinal1|ip_core5|myproject|top.v/myBarrelColor - barrelColor</ClosedNode>
+         <ClosedNode>/top E:|myproject|top.v/Charactercolor - characterColor/kong - kongColor</ClosedNode>
+         <ClosedNode>/top E:|myproject|top.v/Charactercolor - characterColor/mario - marioColor</ClosedNode>
+         <ClosedNode>/top E:|myproject|top.v/Charactercolor - characterColor/queue - queueColor</ClosedNode>
+         <ClosedNode>/top E:|myproject|top.v/GetBackground - color</ClosedNode>
+         <ClosedNode>/top E:|myproject|top.v/Wel01 - WelcomeBG/W_background1 - W_background1/m0 - W_titlecolor</ClosedNode>
+         <ClosedNode>/top E:|myproject|top.v/Wel01 - WelcomeBG/W_background1 - W_background1/m1 - W_playcolor</ClosedNode>
+         <ClosedNode>/top E:|myproject|top.v/Wel01 - WelcomeBG/W_background1 - W_background1/m2 - W_acknowcolor</ClosedNode>
+         <ClosedNode>/top E:|myproject|top.v/Wel01 - WelcomeBG/W_background1 - W_background1/m3 - W_choicecolor</ClosedNode>
+         <ClosedNode>/top E:|myproject|top.v/Wel01 - WelcomeBG/W_background1 - W_background1/m4 - W_Hint1</ClosedNode>
+         <ClosedNode>/top E:|myproject|top.v/Wel01 - WelcomeBG/W_background1 - W_background1/m5 - W_firecolor</ClosedNode>
+         <ClosedNode>/top E:|myproject|top.v/Wel01 - WelcomeBG/W_background1 - W_background1/m6 - W_firecolor</ClosedNode>
+         <ClosedNode>/top E:|myproject|top.v/Wel01 - WelcomeBG/W_background1 - W_background1/m7 - W_kongcolor</ClosedNode>
+         <ClosedNode>/top E:|myproject|top.v/Wel01 - WelcomeBG/W_background2 - W_background2/m1 - W_Hint2</ClosedNode>
+         <ClosedNode>/top E:|myproject|top.v/myBarrelColor - barrelColor</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>top (F:/myfinal2/myfinal1/ip_core5/myproject/top.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >211</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000201000000020000000000000000000000000200000064ffffffff000000810000000300000002000002010000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>top (F:/myfinal2/myfinal1/ip_core5/myproject/top.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000013c000000010000000100000000000000000000000064ffffffff0000008100000000000000010000013c0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000002a2000000040101000100000000000000000000000064ffffffff0000008100000000000000040000003d0000000100000000000000240000000100000000000000780000000100000000000001c90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>barrel.v</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000110000000010001000100000000000000000000000064ffffffff000000810000000000000001000001100000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000011e0000011e01000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+         <ClosedNode>Implement Design/Map/Generate Post-Map Static Timing</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Design Summary/Reports</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >8</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000e7000000010000000100000000000000000000000064ffffffff000000810000000000000001000000e70000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Design Summary/Reports</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_NGC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_XCO" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Manage Cores</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Manage Cores</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/barrel_sim C:|Users|dydxh|Project|testipcore|barrel_sim.v</ClosedNode>
+         <ClosedNode>/barrel_simu C:|Users|dydxh|Project|testipcore|barrel_simu.v</ClosedNode>
+         <ClosedNode>/mario_sim C:|Users|dydxh|Project|testipcore|mario_sim.v</ClosedNode>
+         <ClosedNode>/top C:|Users|dydxh|Project|testipcore|top.v</ClosedNode>
+         <ClosedNode>/top C:|Users|dydxh|Project|testipcore|top.v/Charactercolor - characterColor</ClosedNode>
+         <ClosedNode>/top C:|Users|dydxh|Project|testipcore|top.v/GetBackground - color</ClosedNode>
+         <ClosedNode>/top C:|Users|dydxh|Project|testipcore|top.v/NumberDisplay - Seg7_driver</ClosedNode>
+         <ClosedNode>/top C:|Users|dydxh|Project|testipcore|top.v/VGADisplay - VGA_driver</ClosedNode>
+         <ClosedNode>/top C:|Users|dydxh|Project|testipcore|top.v/get_movement - key2state</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Unassigned User Library Modules</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >34</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000240000000020000000000000000000000000200000064ffffffff000000810000000300000002000002400000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>Unassigned User Library Modules</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000014d000000010000000100000000000000000000000064ffffffff0000008100000000000000010000014d0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000117000000010000000100000000000000000000000064ffffffff000000810000000000000001000001170000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f0000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f00000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_BMM" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" />
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+</Project>

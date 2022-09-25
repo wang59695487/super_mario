@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/dydxh/Project/testipcore/barrel_simu_isim_beh.exe" -prj "C:/Users/dydxh/Project/testipcore/barrel_simu_beh.prj" "work.barrel_simu" "work.glbl" 

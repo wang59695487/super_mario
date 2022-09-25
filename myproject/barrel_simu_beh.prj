@@ -1,0 +1,4 @@
+verilog work "rand_gen.v"
+verilog work "barrel.v"
+verilog work "barrel_simu.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

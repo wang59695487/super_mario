@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=F:\myfinal2\myfinal1\ip_core5\myproject\top.ncd
+OUTFILE=F:\myfinal2\myfinal1\ip_core5\myproject\top.bit
+FAMILY=Kintex7
+PART=xc7k160t-1fbg676
+WORKINGDIR=F:\myfinal2\myfinal1\ip_core5\myproject
+LICENSE=WebPack
+USER_INFO=__0_0_0

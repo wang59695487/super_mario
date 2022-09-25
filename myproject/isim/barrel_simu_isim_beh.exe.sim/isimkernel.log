@@ -1,0 +1,28 @@
+Command line:
+   barrel_simu_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49245
+
+Mon Dec 31 23:41:07 2018
+
+
+ Elaboration Time: 0.0312 sec
+
+ Current Memory Usage: 667.816 Meg
+
+ Total Signals          : 26
+ Total Nets             : 76
+ Total Signal Drivers   : 17
+ Total Blocks           : 4
+ Total Primitive Blocks : 2
+ Total Processes        : 26
+ Total Traceable Variables  : 97
+ Total Scalar Nets and Variables : 788
+
+ Total Simulation Time: 0.0624 sec
+
+ Current Memory Usage: 667.816 Meg
+
+Mon Dec 31 23:41:32 2018
+

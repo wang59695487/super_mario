@@ -1,0 +1,14 @@
+
+run
+-ifmt VHDL
+-ent winbgg_exdes 
+-p xc7k160t-fbg676-1
+-ifn xst.prj
+-write_timing_constraints No
+-iobuf YES
+-max_fanout 100
+-ofn winbgg_exdes 
+-ofmt NGC
+-bus_delimiter ()
+-hierarchy_separator /
+-case Maintain

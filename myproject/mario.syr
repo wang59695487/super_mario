@@ -1,0 +1,416 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Reading design: mario.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "mario.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "mario"
+Output Format                      : NGC
+Target Device                      : xc7k160t-1-fbg676
+
+---- Source Options
+Top Module Name                    : mario
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\dydxh\Project\testipcore\mario.v" into library work
+Parsing module <mario>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <mario>.
+WARNING:HDLCompiler:1127 - "C:\Users\dydxh\Project\testipcore\mario.v" Line 147: Assignment to COLLATION_UP ignored, since the identifier is never used
+WARNING:HDLCompiler:413 - "C:\Users\dydxh\Project\testipcore\mario.v" Line 186: Result of 14-bit expression is truncated to fit in 13-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\dydxh\Project\testipcore\mario.v" Line 272: Result of 13-bit expression is truncated to fit in 9-bit target.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <mario>.
+    Related source file is "C:\Users\dydxh\Project\testipcore\mario.v".
+    Found 10-bit register for signal <SPEED_X>.
+    Found 13-bit register for signal <SPEED_Y10x>.
+    Found 5-bit register for signal <animation_counter>.
+    Found 9-bit register for signal <y>.
+    Found 1-bit register for signal <last_direction>.
+    Found 10-bit register for signal <x>.
+    Found 3-bit register for signal <state>.
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 7                                              |
+    | Transitions        | 58                                             |
+    | Inputs             | 14                                             |
+    | Outputs            | 17                                             |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | rst (positive)                                 |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 000                                            |
+    | Power Up State     | 000                                            |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 9-bit subtractor for signal <y[8]_GND_1_o_sub_370_OUT> created at line 320.
+    Found 13-bit adder for signal <GND_1_o_SPEED_Y[12]_add_306_OUT> created at line 268.
+    Found 10-bit adder for signal <x[9]_GND_1_o_add_314_OUT> created at line 268.
+    Found 13-bit adder for signal <n0372[12:0]> created at line 272.
+    Found 13-bit adder for signal <SPEED_Y10x[12]_GND_1_o_add_355_OUT> created at line 282.
+    Found 10-bit adder for signal <n0467> created at line 300.
+    Found 10-bit adder for signal <x[9]_SPEED_X[9]_add_361_OUT> created at line 300.
+    Found 10-bit adder for signal <n0458> created at line 302.
+    Found 5-bit adder for signal <animation_counter[4]_GND_1_o_add_366_OUT> created at line 316.
+    Found 10-bit adder for signal <n0476[9:0]> created at line 323.
+    Found 9-bit adder for signal <y[8]_GND_1_o_add_372_OUT> created at line 323.
+    Found 9-bit adder for signal <y[8]_GND_1_o_add_374_OUT> created at line 325.
+    Found 4x4-bit Read Only RAM for signal <animation_counter[4]_PWR_1_o_wide_mux_396_OUT>
+    Found 4x4-bit Read Only RAM for signal <animation_counter[2]_PWR_1_o_wide_mux_397_OUT>
+    Found 4x8-bit Read Only RAM for signal <_n0640>
+WARNING:Xst:737 - Found 1-bit latch for signal <animation_state<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <animation_state<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <animation_state<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <animation_state<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 10-bit comparator lessequal for signal <n0000> created at line 126
+    Found 9-bit comparator greater for signal <y[8]_GND_1_o_LessThan_3_o> created at line 127
+    Found 9-bit comparator greater for signal <GND_1_o_y[8]_LessThan_5_o> created at line 127
+    Found 10-bit comparator lessequal for signal <n0005> created at line 127
+    Found 10-bit comparator lessequal for signal <n0007> created at line 127
+    Found 9-bit comparator greater for signal <y[8]_GND_1_o_LessThan_10_o> created at line 128
+    Found 9-bit comparator greater for signal <GND_1_o_y[8]_LessThan_12_o> created at line 128
+    Found 10-bit comparator lessequal for signal <n0015> created at line 128
+    Found 9-bit comparator greater for signal <y[8]_GND_1_o_LessThan_16_o> created at line 129
+    Found 9-bit comparator greater for signal <GND_1_o_y[8]_LessThan_18_o> created at line 129
+    Found 10-bit comparator lessequal for signal <n0022> created at line 129
+    Found 10-bit comparator lessequal for signal <n0024> created at line 129
+    Found 9-bit comparator greater for signal <y[8]_PWR_1_o_LessThan_23_o> created at line 130
+    Found 9-bit comparator greater for signal <PWR_1_o_y[8]_LessThan_25_o> created at line 130
+    Found 9-bit comparator greater for signal <y[8]_PWR_1_o_LessThan_29_o> created at line 131
+    Found 9-bit comparator greater for signal <PWR_1_o_y[8]_LessThan_31_o> created at line 131
+    Found 9-bit comparator greater for signal <y[8]_PWR_1_o_LessThan_36_o> created at line 132
+    Found 9-bit comparator greater for signal <PWR_1_o_y[8]_LessThan_38_o> created at line 132
+    Found 10-bit comparator lessequal for signal <n0044> created at line 133
+    Found 10-bit comparator lessequal for signal <n0046> created at line 134
+    Found 10-bit comparator lessequal for signal <n0048> created at line 134
+    Found 10-bit comparator lessequal for signal <n0053> created at line 135
+    Found 10-bit comparator lessequal for signal <n0057> created at line 136
+    Found 10-bit comparator lessequal for signal <n0059> created at line 136
+    Found 9-bit comparator lessequal for signal <n0070> created at line 140
+    Found 10-bit comparator greater for signal <x[9]_GND_1_o_LessThan_72_o> created at line 141
+    Found 10-bit comparator greater for signal <GND_1_o_x[9]_LessThan_74_o> created at line 141
+    Found 9-bit comparator lessequal for signal <n0075> created at line 141
+    Found 9-bit comparator lessequal for signal <n0077> created at line 141
+    Found 10-bit comparator greater for signal <x[9]_PWR_1_o_LessThan_79_o> created at line 142
+    Found 10-bit comparator greater for signal <GND_1_o_x[9]_LessThan_81_o> created at line 142
+    Found 9-bit comparator lessequal for signal <n0085> created at line 142
+    Found 9-bit comparator lessequal for signal <n0087> created at line 142
+    Found 10-bit comparator greater for signal <x[9]_PWR_1_o_LessThan_86_o> created at line 143
+    Found 10-bit comparator greater for signal <GND_1_o_x[9]_LessThan_88_o> created at line 143
+    Found 9-bit comparator lessequal for signal <n0095> created at line 143
+    Found 9-bit comparator lessequal for signal <n0097> created at line 143
+    Found 9-bit comparator lessequal for signal <n0102> created at line 144
+    Found 9-bit comparator lessequal for signal <n0104> created at line 144
+    Found 9-bit comparator lessequal for signal <n0109> created at line 145
+    Found 9-bit comparator lessequal for signal <n0111> created at line 145
+    Found 9-bit comparator lessequal for signal <n0117> created at line 146
+    Found 10-bit comparator greater for signal <GND_1_o_x[9]_LessThan_145_o> created at line 167
+    Found 10-bit comparator greater for signal <x[9]_GND_1_o_LessThan_146_o> created at line 167
+    Found 10-bit comparator lessequal for signal <n0130> created at line 168
+    Found 10-bit comparator lessequal for signal <n0132> created at line 168
+    Found 9-bit comparator greater for signal <GND_1_o_y[8]_LessThan_149_o> created at line 168
+    Found 9-bit comparator greater for signal <y[8]_GND_1_o_LessThan_150_o> created at line 168
+    Found 10-bit comparator lessequal for signal <n0140> created at line 169
+    Found 10-bit comparator lessequal for signal <n0142> created at line 169
+    Found 9-bit comparator greater for signal <GND_1_o_y[8]_LessThan_153_o> created at line 169
+    Found 9-bit comparator greater for signal <y[8]_GND_1_o_LessThan_154_o> created at line 169
+    Found 10-bit comparator lessequal for signal <n0150> created at line 170
+    Found 10-bit comparator lessequal for signal <n0152> created at line 170
+    Found 9-bit comparator greater for signal <GND_1_o_y[8]_LessThan_157_o> created at line 170
+    Found 9-bit comparator greater for signal <y[8]_GND_1_o_LessThan_158_o> created at line 170
+    Found 10-bit comparator lessequal for signal <n0160> created at line 171
+    Found 10-bit comparator lessequal for signal <n0162> created at line 171
+    Found 9-bit comparator greater for signal <GND_1_o_y[8]_LessThan_161_o> created at line 171
+    Found 9-bit comparator greater for signal <y[8]_PWR_1_o_LessThan_162_o> created at line 171
+    Found 10-bit comparator lessequal for signal <n0170> created at line 172
+    Found 10-bit comparator lessequal for signal <n0172> created at line 172
+    Found 9-bit comparator greater for signal <PWR_1_o_y[8]_LessThan_165_o> created at line 172
+    Found 9-bit comparator greater for signal <y[8]_PWR_1_o_LessThan_166_o> created at line 172
+    Found 13-bit comparator greater for signal <GND_1_o_GND_1_o_LessThan_193_o> created at line 216
+    Found 13-bit comparator greater for signal <GND_1_o_GND_1_o_LessThan_195_o> created at line 220
+    Found 13-bit comparator greater for signal <GND_1_o_GND_1_o_LessThan_197_o> created at line 220
+    Found 13-bit comparator greater for signal <GND_1_o_GND_1_o_LessThan_204_o> created at line 224
+    Found 13-bit comparator greater for signal <GND_1_o_GND_1_o_LessThan_206_o> created at line 224
+    Found 13-bit comparator greater for signal <GND_1_o_GND_1_o_LessThan_213_o> created at line 228
+    Found 13-bit comparator greater for signal <GND_1_o_GND_1_o_LessThan_215_o> created at line 228
+    Found 13-bit comparator greater for signal <GND_1_o_GND_1_o_LessThan_222_o> created at line 232
+    Found 13-bit comparator greater for signal <GND_1_o_GND_1_o_LessThan_224_o> created at line 232
+    Found 13-bit comparator greater for signal <GND_1_o_GND_1_o_LessThan_231_o> created at line 236
+    Found 13-bit comparator greater for signal <GND_1_o_GND_1_o_LessThan_233_o> created at line 236
+    Found 13-bit comparator greater for signal <GND_1_o_GND_1_o_LessThan_240_o> created at line 240
+    Found 13-bit comparator greater for signal <GND_1_o_GND_1_o_LessThan_242_o> created at line 240
+    Found 13-bit comparator greater for signal <GND_1_o_GND_1_o_LessThan_253_o> created at line 248
+    Found 13-bit comparator greater for signal <GND_1_o_GND_1_o_LessThan_256_o> created at line 248
+    Found 10-bit comparator greater for signal <x[9]_GND_1_o_LessThan_258_o> created at line 248
+    Found 10-bit comparator greater for signal <GND_1_o_x[9]_LessThan_261_o> created at line 248
+    Found 13-bit comparator greater for signal <GND_1_o_GND_1_o_LessThan_264_o> created at line 252
+    Found 13-bit comparator greater for signal <GND_1_o_GND_1_o_LessThan_267_o> created at line 252
+    Found 13-bit comparator greater for signal <GND_1_o_GND_1_o_LessThan_275_o> created at line 256
+    Found 13-bit comparator greater for signal <GND_1_o_GND_1_o_LessThan_278_o> created at line 256
+    Found 13-bit comparator greater for signal <GND_1_o_GND_1_o_LessThan_286_o> created at line 260
+    Found 13-bit comparator greater for signal <GND_1_o_GND_1_o_LessThan_289_o> created at line 260
+    Found 10-bit comparator greater for signal <x[9]_PWR_1_o_LessThan_291_o> created at line 260
+    Found 13-bit comparator greater for signal <GND_1_o_GND_1_o_LessThan_297_o> created at line 264
+    Found 13-bit comparator greater for signal <GND_1_o_GND_1_o_LessThan_300_o> created at line 264
+    Found 10-bit comparator greater for signal <GND_1_o_x[9]_LessThan_305_o> created at line 264
+    Found 13-bit comparator greater for signal <GND_1_o_GND_1_o_LessThan_308_o> created at line 268
+    Found 13-bit comparator greater for signal <GND_1_o_GND_1_o_LessThan_311_o> created at line 268
+    Found 10-bit comparator greater for signal <x[9]_PWR_1_o_LessThan_313_o> created at line 268
+    Found 10-bit comparator greater for signal <GND_1_o_x[9]_LessThan_316_o> created at line 268
+    Found 10-bit comparator greater for signal <x[9]_GND_1_o_LessThan_360_o> created at line 298
+    Found 10-bit comparator greater for signal <PWR_1_o_x[9]_LessThan_363_o> created at line 300
+    Found 9-bit comparator greater for signal <y[8]_GND_1_o_LessThan_369_o> created at line 318
+    Found 9-bit comparator greater for signal <PWR_1_o_y[8]_LessThan_374_o> created at line 323
+    Found 32-bit comparator greater for signal <SPEED_X[9]_GND_1_o_LessThan_393_o> created at line 339
+    Found 32-bit comparator greater for signal <n0322> created at line 394
+    Summary:
+	inferred   3 RAM(s).
+	inferred  12 Adder/Subtractor(s).
+	inferred  48 D-type flip-flop(s).
+	inferred   4 Latch(s).
+	inferred 101 Comparator(s).
+	inferred  31 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <mario> synthesized.
+
+Synthesizing Unit <div_13s_5s>.
+    Related source file is "".
+    Found 13-bit subtractor for signal <a[12]_unary_minus_1_OUT> created at line 0.
+    Found 14-bit adder for signal <GND_2_o_BUS_0001_add_32_OUT[13:0]> created at line 0.
+    Found 18-bit adder for signal <GND_2_o_b[4]_add_5_OUT> created at line 0.
+    Found 17-bit adder for signal <GND_2_o_b[4]_add_7_OUT> created at line 0.
+    Found 16-bit adder for signal <GND_2_o_b[4]_add_9_OUT> created at line 0.
+    Found 15-bit adder for signal <GND_2_o_b[4]_add_11_OUT> created at line 0.
+    Found 14-bit adder for signal <GND_2_o_b[4]_add_13_OUT> created at line 0.
+    Found 13-bit adder for signal <a[12]_b[4]_add_15_OUT> created at line 0.
+    Found 13-bit adder for signal <a[12]_GND_2_o_add_17_OUT> created at line 0.
+    Found 13-bit adder for signal <a[12]_GND_2_o_add_19_OUT> created at line 0.
+    Found 13-bit adder for signal <a[12]_GND_2_o_add_21_OUT> created at line 0.
+    Found 13-bit adder for signal <a[12]_GND_2_o_add_23_OUT> created at line 0.
+    Found 13-bit adder for signal <a[12]_GND_2_o_add_25_OUT[12:0]> created at line 0.
+    Found 13-bit adder for signal <a[12]_GND_2_o_add_27_OUT[12:0]> created at line 0.
+    Found 13-bit adder for signal <a[12]_GND_2_o_add_29_OUT[12:0]> created at line 0.
+    Found 18-bit comparator greater for signal <BUS_0001_INV_243_o> created at line 0
+    Found 17-bit comparator greater for signal <BUS_0002_INV_242_o> created at line 0
+    Found 16-bit comparator greater for signal <BUS_0003_INV_241_o> created at line 0
+    Found 15-bit comparator greater for signal <BUS_0004_INV_240_o> created at line 0
+    Found 14-bit comparator greater for signal <BUS_0005_INV_239_o> created at line 0
+    Found 13-bit comparator greater for signal <BUS_0006_INV_238_o> created at line 0
+    Found 13-bit comparator greater for signal <BUS_0007_INV_237_o> created at line 0
+    Found 13-bit comparator greater for signal <BUS_0008_INV_236_o> created at line 0
+    Found 13-bit comparator greater for signal <BUS_0009_INV_235_o> created at line 0
+    Found 13-bit comparator greater for signal <BUS_0010_INV_234_o> created at line 0
+    Found 13-bit comparator greater for signal <BUS_0011_INV_233_o> created at line 0
+    Found 13-bit comparator greater for signal <BUS_0012_INV_232_o> created at line 0
+    Found 13-bit comparator greater for signal <BUS_0013_INV_231_o> created at line 0
+    Found 13-bit comparator greater for signal <BUS_0014_INV_230_o> created at line 0
+    Summary:
+	inferred  15 Adder/Subtractor(s).
+	inferred  14 Comparator(s).
+	inferred 135 Multiplexer(s).
+Unit <div_13s_5s> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 3
+ 4x4-bit single-port Read Only RAM                     : 2
+ 4x8-bit single-port Read Only RAM                     : 1
+# Adders/Subtractors                                   : 27
+ 10-bit adder                                          : 5
+ 13-bit adder                                          : 11
+ 13-bit subtractor                                     : 1
+ 14-bit adder                                          : 2
+ 15-bit adder                                          : 1
+ 16-bit adder                                          : 1
+ 17-bit adder                                          : 1
+ 18-bit adder                                          : 1
+ 5-bit adder                                           : 1
+ 9-bit adder                                           : 2
+ 9-bit subtractor                                      : 1
+# Registers                                            : 6
+ 1-bit register                                        : 1
+ 10-bit register                                       : 2
+ 13-bit register                                       : 1
+ 5-bit register                                        : 1
+ 9-bit register                                        : 1
+# Latches                                              : 4
+ 1-bit latch                                           : 4
+# Comparators                                          : 115
+ 10-bit comparator greater                             : 16
+ 10-bit comparator lessequal                           : 22
+ 13-bit comparator greater                             : 34
+ 14-bit comparator greater                             : 1
+ 15-bit comparator greater                             : 1
+ 16-bit comparator greater                             : 1
+ 17-bit comparator greater                             : 1
+ 18-bit comparator greater                             : 1
+ 32-bit comparator greater                             : 2
+ 9-bit comparator greater                              : 24
+ 9-bit comparator lessequal                            : 12
+# Multiplexers                                         : 166
+ 1-bit 2-to-1 multiplexer                              : 131
+ 10-bit 2-to-1 multiplexer                             : 6
+ 13-bit 2-to-1 multiplexer                             : 6
+ 14-bit 2-to-1 multiplexer                             : 1
+ 4-bit 2-to-1 multiplexer                              : 1
+ 9-bit 2-to-1 multiplexer                              : 21
+# FSMs                                                 : 1
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <mario>.
+The following registers are absorbed into counter <animation_counter>: 1 register on signal <animation_counter>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_animation_counter[4]_PWR_1_o_wide_mux_396_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 4-word x 4-bit                      |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <animation_counter<4:3>> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_animation_counter[2]_PWR_1_o_wide_mux_397_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 4-word x 4-bit                      |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <animation_counter<2:1>> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram__n0640> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 4-word x 8-bit                      |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <animation_counter<3:2>> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <mario> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 3
